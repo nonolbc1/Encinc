@@ -3,14 +3,14 @@
 Encinc est un outil de chiffrement et déchiffrement de fichiers pour Windows.  
 Deux versions sont installé :
 
-- **Encinc.exe** : version sans console (utilisation via clic droit / menu contextuel Windows).  
+- **Encinc_noconsole.exe** : version sans console (utilisation via clic droit / menu contextuel Windows).  
 - **Encinc_console.exe** : version avec console (utilisation via terminal).  
 
 ---
 
 ## 🔐 Chiffrement
 
-### ➤ Avec Encinc.exe (sans console)
+### ➤ Avec Encinc_noconsole.exe (sans console)
 1. Faites **clic droit** sur le fichier à chiffrer.  
 2. Sélectionnez **Encrypt**.
 3. Marquez une **clé de chiffrement**.
@@ -31,7 +31,7 @@ Encinc_console -enc monfichier.txt
 
 ## 🔐 Déchiffrement
 
-### ➤ Avec Encinc.exe (sans console)
+### ➤ Avec Encinc_noconsole.exe (sans console)
 1. Faites **clic droit** sur un fichier .enc
 2. Sélectionnez **Decrypt**.
 3. Marquez la même **clé de chiffrement** anciennement utiliser.
@@ -53,4 +53,5 @@ Encinc_console -dec monfichier.enc
 ## 📌 Remarque
 
 - Encinc est conçu pour être simple : soit via **clic droit**, soit via **ligne de commande**.
+
 - Les deux versions sont installées, mais une seule est recommandée selon votre usage.
